@@ -1,6 +1,6 @@
 ﻿namespace Course_Practice
 {
-    partial class frmTreeViewcs
+    partial class frmTreeView
     {
         /// <summary>
         /// Required designer variable.
@@ -45,7 +45,7 @@
             treeNode7,
             treeNode8});
             System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node3", 1, 1);
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTreeViewcs));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTreeView));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();

@@ -1,6 +1,6 @@
 ﻿namespace Course_Practice
 {
-    partial class frmTimercs
+    partial class frmTimer
     {
         /// <summary>
         /// Required designer variable.

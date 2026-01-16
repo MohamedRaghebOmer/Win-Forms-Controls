@@ -43,7 +43,7 @@ namespace Course_Practice
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmTimercs frm = new frmTimercs();
+            frmTimer frm = new frmTimer();
             frm.ShowDialog();
         }
 
@@ -55,7 +55,7 @@ namespace Course_Practice
 
         private void button5_Click(object sender, EventArgs e)
         {
-            frmTreeViewcs frm = new frmTreeViewcs();
+            frmTreeView frm = new frmTreeView();
             frm.ShowDialog();
         }
 

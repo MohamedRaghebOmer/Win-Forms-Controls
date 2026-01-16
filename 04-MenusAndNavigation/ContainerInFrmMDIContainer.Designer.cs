@@ -1,6 +1,6 @@
 ﻿namespace Course_Practice
 {
-    partial class Form2
+    partial class ContainerInFrmMDIContainer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Form2
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1056, 582);
-            this.Name = "Form2";
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Course_Practice
 {
-    public partial class frmTimercs : Form
+    public partial class frmTimer : Form
     {
-        public frmTimercs()
+        public frmTimer()
         {
             InitializeComponent();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Course_Practice
 {
-    public partial class frmTreeViewcs : Form
+    public partial class frmTreeView : Form
     {
-        public frmTreeViewcs()
+        public frmTreeView()
         {
             InitializeComponent();
         }

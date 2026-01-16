@@ -52,6 +52,7 @@
             this.Controls.Add(this.linkLabel1);
             this.Name = "frmLinkedLabel";
             this.Text = "frmLinkedLabel";
+            this.Load += new System.EventHandler(this.frmLinkedLabel_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

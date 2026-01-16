@@ -52,6 +52,36 @@
     <Compile Include="02-SelectorsAndLists\frmComboBox.Designer.cs">
       <DependentUpon>frmComboBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="04-MenusAndNavigation\ContainerInFrmMDIContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\ContainerInFrmMDIContainer.Designer.cs">
+      <DependentUpon>ContainerInFrmMDIContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmContextMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmContextMenu.Designer.cs">
+      <DependentUpon>frmContextMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmMDIContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmMDIContainer.Designer.cs">
+      <DependentUpon>frmMDIContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmMinueStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmMinueStrip.Designer.cs">
+      <DependentUpon>frmMinueStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmTabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04-MenusAndNavigation\frmTabControl.Designer.cs">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,18 +93,6 @@
     </Compile>
     <Compile Include="03-Dialogs\frmColorDialog.Designer.cs">
       <DependentUpon>frmColorDialog.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmContextMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmContextMenu.Designer.cs">
-      <DependentUpon>frmContextMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="02-SelectorsAndLists\frmDateTimePicker.cs">
       <SubType>Form</SubType>
@@ -105,12 +123,6 @@
     </Compile>
     <Compile Include="02-SelectorsAndLists\frmListView.Designer.cs">
       <DependentUpon>frmListView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMinueStrip.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMinueStrip.Designer.cs">
-      <DependentUpon>frmMinueStrip.cs</DependentUpon>
     </Compile>
     <Compile Include="02-SelectorsAndLists\frmMonthCalandar.cs">
       <SubType>Form</SubType>
@@ -160,12 +172,6 @@
     <Compile Include="03-Dialogs\frmSaveFileDialog.Designer.cs">
       <DependentUpon>frmSaveFileDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTabControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTabControl.Designer.cs">
-      <DependentUpon>frmTabControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="01-BasicControls\frmTimer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -184,31 +190,34 @@
     <Compile Include="02-SelectorsAndLists\frmTreeView.Designer.cs">
       <DependentUpon>frmTreeView.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPracticeAllControls\frmControlsPractice.cs">
+    <Compile Include="OtherPractice\frmPractice-01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPracticeAllControls\frmControlsPractice.Designer.cs">
-      <DependentUpon>frmControlsPractice.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MDIContainer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MDIContainer.Designer.cs">
-      <DependentUpon>MDIContainer.cs</DependentUpon>
+    <Compile Include="OtherPractice\frmPractice-01.Designer.cs">
+      <DependentUpon>frmPractice-01.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="02-SelectorsAndLists\frmComboBox.resx">
       <DependentUpon>frmComboBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="04-MenusAndNavigation\frmContextMenu.resx">
+      <DependentUpon>frmContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-MenusAndNavigation\frmMDIContainer.resx">
+      <DependentUpon>frmMDIContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-MenusAndNavigation\frmMinueStrip.resx">
+      <DependentUpon>frmMinueStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04-MenusAndNavigation\frmTabControl.resx">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="03-Dialogs\frmColorDialog.resx">
       <DependentUpon>frmColorDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmContextMenu.resx">
-      <DependentUpon>frmContextMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="02-SelectorsAndLists\frmDateTimePicker.resx">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
@@ -224,9 +233,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="02-SelectorsAndLists\frmListView.resx">
       <DependentUpon>frmListView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMinueStrip.resx">
-      <DependentUpon>frmMinueStrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="02-SelectorsAndLists\frmMonthCalandar.resx">
       <DependentUpon>frmMonthCalandar.cs</DependentUpon>
@@ -252,9 +258,6 @@
     <EmbeddedResource Include="03-Dialogs\frmSaveFileDialog.resx">
       <DependentUpon>frmSaveFileDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTabControl.resx">
-      <DependentUpon>frmTabControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="01-BasicControls\frmTimer.resx">
       <DependentUpon>frmTimer.cs</DependentUpon>
     </EmbeddedResource>
@@ -264,11 +267,8 @@
     <EmbeddedResource Include="02-SelectorsAndLists\frmTreeView.resx">
       <DependentUpon>frmTreeView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPracticeAllControls\frmControlsPractice.resx">
-      <DependentUpon>frmControlsPractice.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MDIContainer.resx">
-      <DependentUpon>MDIContainer.cs</DependentUpon>
+    <EmbeddedResource Include="OtherPractice\frmPractice-01.resx">
+      <DependentUpon>frmPractice-01.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -280,6 +280,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="LICENSE" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -314,8 +315,6 @@
   <ItemGroup>
     <None Include="Images\Pen.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="H\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

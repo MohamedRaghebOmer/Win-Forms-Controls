@@ -21,5 +21,10 @@ namespace Course_Practice
         {
             System.Diagnostics.Process.Start("https://programmingadvices.com/");
         }
+
+        private void frmLinkedLabel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

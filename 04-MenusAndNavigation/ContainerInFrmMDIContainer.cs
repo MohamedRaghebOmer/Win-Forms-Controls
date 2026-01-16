@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Course_Practice
 {
-    public partial class Form2 : Form
+    public partial class ContainerInFrmMDIContainer : Form
     {
-        public Form2()
+        public ContainerInFrmMDIContainer()
         {
             InitializeComponent();
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

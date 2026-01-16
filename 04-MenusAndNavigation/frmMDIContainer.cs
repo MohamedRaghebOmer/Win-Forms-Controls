@@ -17,7 +17,7 @@ namespace Course_Practice
             InitializeComponent();
         }
 
-        Form2 frm = new Form2();
+        ContainerInFrmMDIContainer frm = new ContainerInFrmMDIContainer();
         private void button1_Click(object sender, EventArgs e)
         {
             frm.MdiParent = this;

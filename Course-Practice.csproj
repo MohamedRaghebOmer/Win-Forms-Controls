@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Combo Box.cs">
+    <Compile Include="02-SelectorsAndLists\frmComboBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Combo Box.Designer.cs">
-      <DependentUpon>Combo Box.cs</DependentUpon>
+    <Compile Include="02-SelectorsAndLists\frmComboBox.Designer.cs">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -58,17 +58,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="03-Dialogs\frmColorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03-Dialogs\frmColorDialog.Designer.cs">
+      <DependentUpon>frmColorDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmColorDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmColorDialog.Designer.cs">
-      <DependentUpon>frmColorDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="frmContextMenu.cs">
       <SubType>Form</SubType>
@@ -76,34 +76,34 @@
     <Compile Include="frmContextMenu.Designer.cs">
       <DependentUpon>frmContextMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmDateTimePicker.cs">
+    <Compile Include="02-SelectorsAndLists\frmDateTimePicker.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDateTimePicker.Designer.cs">
+    <Compile Include="02-SelectorsAndLists\frmDateTimePicker.Designer.cs">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmErrorProvider.cs">
+    <Compile Include="05-Utilities\frmErrorProvider.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmErrorProvider.Designer.cs">
+    <Compile Include="05-Utilities\frmErrorProvider.Designer.cs">
       <DependentUpon>frmErrorProvider.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmFontDialog.cs">
+    <Compile Include="03-Dialogs\frmFontDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFontDialog.Designer.cs">
+    <Compile Include="03-Dialogs\frmFontDialog.Designer.cs">
       <DependentUpon>frmFontDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLinkedLabel.cs">
+    <Compile Include="01-BasicControls\frmLinkedLabel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLinkedLabel.Designer.cs">
+    <Compile Include="01-BasicControls\frmLinkedLabel.Designer.cs">
       <DependentUpon>frmLinkedLabel.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListView.cs">
+    <Compile Include="02-SelectorsAndLists\frmListView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListView.Designer.cs">
+    <Compile Include="02-SelectorsAndLists\frmListView.Designer.cs">
       <DependentUpon>frmListView.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMinueStrip.cs">
@@ -112,52 +112,52 @@
     <Compile Include="frmMinueStrip.Designer.cs">
       <DependentUpon>frmMinueStrip.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMonthCalandar.cs">
+    <Compile Include="02-SelectorsAndLists\frmMonthCalandar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMonthCalandar.Designer.cs">
+    <Compile Include="02-SelectorsAndLists\frmMonthCalandar.Designer.cs">
       <DependentUpon>frmMonthCalandar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmNotifyIcon.cs">
+    <Compile Include="05-Utilities\frmNotifyIcon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNotifyIcon.Designer.cs">
+    <Compile Include="05-Utilities\frmNotifyIcon.Designer.cs">
       <DependentUpon>frmNotifyIcon.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmNumericUpDown.cs">
+    <Compile Include="01-BasicControls\frmNumericUpDown.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmNumericUpDown.Designer.cs">
+    <Compile Include="01-BasicControls\frmNumericUpDown.Designer.cs">
       <DependentUpon>frmNumericUpDown.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmOpenFileDialog.cs">
+    <Compile Include="03-Dialogs\frmOpenFileDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmOpenFileDialog.Designer.cs">
+    <Compile Include="03-Dialogs\frmOpenFileDialog.Designer.cs">
       <DependentUpon>frmOpenFileDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmOpenFolerDialog.cs">
+    <Compile Include="03-Dialogs\frmOpenFolerDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmOpenFolerDialog.Designer.cs">
+    <Compile Include="03-Dialogs\frmOpenFolerDialog.Designer.cs">
       <DependentUpon>frmOpenFolerDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPanel.cs">
+    <Compile Include="05-Utilities\frmPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPanel.Designer.cs">
+    <Compile Include="05-Utilities\frmPanel.Designer.cs">
       <DependentUpon>frmPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmProgressPar.cs">
+    <Compile Include="01-BasicControls\frmProgressPar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmProgressPar.Designer.cs">
+    <Compile Include="01-BasicControls\frmProgressPar.Designer.cs">
       <DependentUpon>frmProgressPar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSaveFileDialog.cs">
+    <Compile Include="03-Dialogs\frmSaveFileDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSaveFileDialog.Designer.cs">
+    <Compile Include="03-Dialogs\frmSaveFileDialog.Designer.cs">
       <DependentUpon>frmSaveFileDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="frmTabControl.cs">
@@ -166,29 +166,29 @@
     <Compile Include="frmTabControl.Designer.cs">
       <DependentUpon>frmTabControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTimercs.cs">
+    <Compile Include="01-BasicControls\frmTimer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTimercs.Designer.cs">
-      <DependentUpon>frmTimercs.cs</DependentUpon>
+    <Compile Include="01-BasicControls\frmTimer.Designer.cs">
+      <DependentUpon>frmTimer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTrackBar.cs">
+    <Compile Include="05-Utilities\frmTrackBar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTrackBar.Designer.cs">
+    <Compile Include="05-Utilities\frmTrackBar.Designer.cs">
       <DependentUpon>frmTrackBar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmTreeViewcs.cs">
+    <Compile Include="02-SelectorsAndLists\frmTreeView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTreeViewcs.Designer.cs">
-      <DependentUpon>frmTreeViewcs.cs</DependentUpon>
+    <Compile Include="02-SelectorsAndLists\frmTreeView.Designer.cs">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Homwork.cs">
+    <Compile Include="frmPracticeAllControls\frmControlsPractice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Homwork.Designer.cs">
-      <DependentUpon>Homwork.cs</DependentUpon>
+    <Compile Include="frmPracticeAllControls\frmControlsPractice.Designer.cs">
+      <DependentUpon>frmControlsPractice.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIContainer.cs">
       <SubType>Form</SubType>
@@ -198,77 +198,74 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Combo Box.resx">
-      <DependentUpon>Combo Box.cs</DependentUpon>
+    <EmbeddedResource Include="02-SelectorsAndLists\frmComboBox.resx">
+      <DependentUpon>frmComboBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmColorDialog.resx">
+    <EmbeddedResource Include="03-Dialogs\frmColorDialog.resx">
       <DependentUpon>frmColorDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmContextMenu.resx">
       <DependentUpon>frmContextMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmDateTimePicker.resx">
+    <EmbeddedResource Include="02-SelectorsAndLists\frmDateTimePicker.resx">
       <DependentUpon>frmDateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmErrorProvider.resx">
+    <EmbeddedResource Include="05-Utilities\frmErrorProvider.resx">
       <DependentUpon>frmErrorProvider.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmFontDialog.resx">
+    <EmbeddedResource Include="03-Dialogs\frmFontDialog.resx">
       <DependentUpon>frmFontDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLinkedLabel.resx">
+    <EmbeddedResource Include="01-BasicControls\frmLinkedLabel.resx">
       <DependentUpon>frmLinkedLabel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListView.resx">
+    <EmbeddedResource Include="02-SelectorsAndLists\frmListView.resx">
       <DependentUpon>frmListView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMinueStrip.resx">
       <DependentUpon>frmMinueStrip.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMonthCalandar.resx">
+    <EmbeddedResource Include="02-SelectorsAndLists\frmMonthCalandar.resx">
       <DependentUpon>frmMonthCalandar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmNotifyIcon.resx">
+    <EmbeddedResource Include="05-Utilities\frmNotifyIcon.resx">
       <DependentUpon>frmNotifyIcon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmNumericUpDown.resx">
+    <EmbeddedResource Include="01-BasicControls\frmNumericUpDown.resx">
       <DependentUpon>frmNumericUpDown.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmOpenFileDialog.resx">
+    <EmbeddedResource Include="03-Dialogs\frmOpenFileDialog.resx">
       <DependentUpon>frmOpenFileDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmOpenFolerDialog.resx">
+    <EmbeddedResource Include="03-Dialogs\frmOpenFolerDialog.resx">
       <DependentUpon>frmOpenFolerDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPanel.resx">
+    <EmbeddedResource Include="05-Utilities\frmPanel.resx">
       <DependentUpon>frmPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmProgressPar.resx">
+    <EmbeddedResource Include="01-BasicControls\frmProgressPar.resx">
       <DependentUpon>frmProgressPar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSaveFileDialog.resx">
+    <EmbeddedResource Include="03-Dialogs\frmSaveFileDialog.resx">
       <DependentUpon>frmSaveFileDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTabControl.resx">
       <DependentUpon>frmTabControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTimercs.resx">
-      <DependentUpon>frmTimercs.cs</DependentUpon>
+    <EmbeddedResource Include="01-BasicControls\frmTimer.resx">
+      <DependentUpon>frmTimer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTrackBar.resx">
+    <EmbeddedResource Include="05-Utilities\frmTrackBar.resx">
       <DependentUpon>frmTrackBar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmTreeViewcs.resx">
-      <DependentUpon>frmTreeViewcs.cs</DependentUpon>
+    <EmbeddedResource Include="02-SelectorsAndLists\frmTreeView.resx">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Homwork.resx">
-      <DependentUpon>Homwork.cs</DependentUpon>
+    <EmbeddedResource Include="frmPracticeAllControls\frmControlsPractice.resx">
+      <DependentUpon>frmControlsPractice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIContainer.resx">
       <DependentUpon>MDIContainer.cs</DependentUpon>
@@ -316,6 +313,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="H\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

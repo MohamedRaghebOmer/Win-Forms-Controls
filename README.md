@@ -6,7 +6,7 @@ A comprehensive repository for practicing **Windows Forms Controls** using **C#*
 
 The practice forms are organized into the following folders:
 
-* **01-BasicControls**: Essential tools like Labels, Timers, and Progress Bars.
+* **01-BasicControls**: Essential tools like Labels, Timers, and Progress Bars. 
 * **02-SelectorsAndLists**: Controls for picking data (ComboBox, ListView, TreeView, DateTimePicker).
 * **03-Dialogs**: Standard Windows dialog boxes (Color, Font, and File dialogs).
 * **04-MenusAndNavigation**: Menu structures, Context Menus, and MDI Containers.

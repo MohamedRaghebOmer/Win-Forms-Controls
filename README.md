@@ -2,7 +2,7 @@
 
 A comprehensive repository for practicing **Windows Forms Controls** using **C#** and **.NET**. The project is structured into logical categories for better navigation and learning.
 
-## 📂 Project Categorization
+## 📂 Project Categorization 
 
 The practice forms are organized into the following folders:
 
